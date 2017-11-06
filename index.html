@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Twitch.tv App</title>
+
+  <!-- Styling -->
+  <link rel="stylesheet" type="text/css" href="./normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+
+<h1 class="text-center">Twitch Tv Streamers</h1>
+
+<div class="col text-center buttons mb-5">
+  <button id="btn-all" class="btn">All</button>
+  <button id="btn-on" class="btn">Online</button>
+  <button id="btn-off" class="btn">Offline</button>
+</div>
+
+<div class="container mb-5">
+<table class="table" id="channel-table">
+  <tbody id="channel-list">
+  </tbody>
+</table>
+</div>
+
+<div class="container-fluid text-center mt-3 footer">
+    <p>Made by <a href="http://pamela.io" target="blank">Pam De Silva</a></p>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+
+
+</body>
+
+</html>

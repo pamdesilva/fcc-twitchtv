@@ -1,0 +1,83 @@
+body {
+  color: #353B86;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  margin-bottom: .5em;
+  margin-top: 1em;
+  font-weight: 100;
+  font-size: 5em;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  border-radius: 100%;
+  width: 5em;
+}
+
+td {
+  padding-right: 3em;
+  padding-top: 3em;
+}
+
+#channel-list a {
+  text-decoration: none;
+  color: #353B86;
+  font-weight: 400;
+}
+
+button {
+  color: #fff;
+  background: #b3b3cc;
+  font-weight: 100;
+  width: 20%;
+  margin-right: 1em;
+}
+
+button:focus, button:hover {
+  background: #353B86;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.offline:hover {
+  background: #a4a7db;
+  color: #fff;
+}
+
+.online {
+  background: #353B86;
+  color: #fff;
+}
+
+#channel-list {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#channel-list .online td a {
+  color: white;
+}
+
+.watch {
+  font-size: .8em;
+  color: salmon;
+  margin-top: .5em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  background: white;
+  color: #4A4A48;
+  font-size: .8em;
+  margin-bottom: -1em;
+  padding-top: .2em;
+  box-shadow: 2px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+  color: #FFBF46;
+  text-decoration: none;
+}
